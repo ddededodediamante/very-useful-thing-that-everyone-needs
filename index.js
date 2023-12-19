@@ -3,7 +3,7 @@ const joinParameters = (...args) => {
 };
 
 const laughter = function() {
-  const laughterEmojis = ['😂', '😆', '😅', '😄', '🤣', '😹', '😃', '😀', '😁', '😊', '😜', '😝', '😛', '😎', '😺', '😸', '😻', '🙃'];
+  const laughterEmojis = ['😂','🤣','😆','🤭','😹','😁'];
   const randomIndex = Math.floor(Math.random() * laughterEmojis.length);
   return laughterEmojis[randomIndex];
 };
